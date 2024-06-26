@@ -9,7 +9,7 @@ const Footer = () => {
 
   
   return (
-    <div style={{backgroundColor:"black",}} >
+    <div style={{backgroundColor:"black",bottom:"0"}} >
         
         <div>
 
@@ -67,7 +67,7 @@ const Footer = () => {
 </div>
 
 
-
+<p style={{color:"white"}} >© 2024 Quest Labs INC. All rights reserved.</p>
   </div>
 
     </div>
