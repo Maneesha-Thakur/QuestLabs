@@ -1,0 +1,40 @@
+/* Add this CSS to your styles.css or equivalent */
+nav {
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add padding to the top of the body or main container */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding-top: 60px; /* Adjust based on the height of the Navbar */
+}
